@@ -1,7 +1,9 @@
-INSERT INTO book_prices (price)
-VALUES (1),
-       (2),
-       (5),
+use employees_db;
+INSERT INTO department (name)
+
+VALUES ("Sales"),
+       ("Engineering"),
+       (""),
        (10),
        (15);
 
