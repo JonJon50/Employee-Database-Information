@@ -3,15 +3,15 @@ INSERT INTO department (name)
 
 VALUES ("Sales"),
        ("Engineering"),
-       (""),
-       (10),
-       (15);
+       ("Finance"),
+       ("Management"),
+       ("Customer Service");
 
-INSERT INTO favorite_books (book_name, in_stock, book_price)
-VALUES ("The Great Gatsby", true, 1),
-       ("Huckleberry Finn", true, 3),
-       ("100 Years of Solitude", false, 5),
-       ("Things Fall Apart", false, 1),
-       ("Crime and Punishment", true, 2),
-       ("Moby Dick", true, 4),
-       ("Decameron", false, 1);
+INSERT INTO role ( title, salary, department_id)
+VALUES ("CEO", 500000.00, 4),
+       ("General Manager", 300000.00, 4),
+       ("Chief Marketing Officer", 250000.00, 1),
+       ("President", 200000.00, 4,)
+       ("Finance Manager", 175000.00, 3),
+       ("Human Resources Manager", 150000.00, 4),
+       ("Project manager", 200000.00, 4);
