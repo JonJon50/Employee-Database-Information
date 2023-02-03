@@ -30,7 +30,7 @@ VALUES ("Kobe", "Bryant", 4, NULL),
        ("Wilt", "Chamberlain", 3, 4),
        ("Magic", "Johnson",  5, 4),
        ("Kareem", "Abdul-Jabbar", 5, 4),
-       ("LeBron", "James", 4, 4),
+       ("LeBron", "James", 3, 4),
        ("Steph", "Curry", 2, 4);
        
       
