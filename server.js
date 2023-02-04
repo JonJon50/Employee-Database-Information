@@ -100,7 +100,75 @@ function viewEmployee() {
     if (err) throw err;
     console.table(results);
   });
-}
+  }
 
+  function viewAllRoles() {
+    console.log("I'm happy to help!");
+    db.query("SELECT * FROM role", function (err, results) {
+      if (err) throw err;
+      console.table(results);
+    });
+    }
+
+    function viewAllDepartment() {
+      console.log("I'm happy to help!");
+      db.query("SELECT * FROM department", function (err, results) {
+        if (err) throw err;
+        console.table(results);
+      });
+      }
+
+
+  function addEmployee() {
+    inquirer
+      .prompt([
+        {
+          type: "input",
+          message: "Enter the employee's first name:",
+          name: "firstName",
+        },
+        {
+          type: "input",
+          message: "Enter the employee's last name:",
+          name: "lastName",
+        },
+        {
+          type: "input",
+          message: "Enter the employee's role ID:",
+          name: "roleId",
+        },
+        {
+          type: "input",
+          message: "Enter the employee's manager ID:",
+          name: "managerId",
+        },
+      ])
+      .then((employee) => {
+        // Add the employee to the database here
+        console.log(`Employee ${employee.firstName} ${employee.lastName} added successfully.`);
+        init();
+      });
+
+      function addEmployee() {
+        inquirer
+          .prompt([
+            {
+              type: "input",
+              message: "Enter the employee's first name:",
+              name: "firstName",
+            },
+            {
+              type: "input",
+              message: "Enter the employee's last name:",
+              name: "lastName",
+            },
+          ])
+          .then((answers) => {
+            console.log(`Employee's first name: ${answers.firstName}`);
+            console.log(`Employee's last name: ${answers.lastName}`);
+          });
+      }
+  }
+  
 // Function call to initialize app
 init();
