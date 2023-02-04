@@ -1,7 +1,7 @@
 <h1 align="center">Employee Database Information</h1>
 
  ![alt](https://img.shields.io/badge/License-MIT-blue) ![alt](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Ftranquil-falls-34631.herokuapp.com%2Fnotes) 
-<p align="center">Note Taker</p>
+<p align="center">Employee Tracker</p>
 
 <p align="center">ScreenShots 🏆</p>
 
@@ -17,52 +17,38 @@
 
 <br>
 
- **Hello World 👋**
+## Description
 
-* School can be very demanding, with so much information. That leads us to multitask, which can contribute to missing valuable tasks.  Inspiring me as well as motivating me to create a Note Taker!
-* By doing so this easy-to-use app will help manage your day-to-day life. 
-* When laying out notes and setting reminders can help you be more proficient with minimum stress.
-* Diving into this project has taught me a few skills along the way. 
-1. Implementing Express.js 
-2. Retrieving and saving data from JSON
-3. Deployment to Heroku and **so much more**.
-
-![Photo0]()
-![Photo1]()
-![Photo2]()
-![Photo3]()
+Employee Database Information is a tool to help keep track of Employees salary and department roles. Adding and deleting intelligence to quickly organize data. Using mysql to provide easy user experience. 
 
 
 
 ## Installation
 
-Go to the internet, type Brain Storm. That's it!
+Go to terminal type npm i, install inquirer package as well as MySQL2 package npm run. Select a question and when prompt information will appear. That's it!
 
 <br>
 
 ## Usage
 
-1. Navigate to the page.
-2. Here you will see as input that says Note Taker, click then '**start typing**'!
-3. Also in the right hand corner there is a plus icon, here you can add notes.
-4. After finishing with the entry, click the disk icon to save.
-5. When the task is not longer needed, click the trash can icon to delete.
-6. Enjoy you organized stress free day!!
+1. Navigate to the terminal.
+2. Here you will see as prompt for the questions, click '**selection**'!
+3. Enter input.
+4. After finishing with the entry, click exit.
+5. Enjoy!
 
-🔭 [Deployment Website](https://tranquil-falls-34631.herokuapp.com/) 🔭
+🔭 [Walkthrough video](https://drive.google.com/file/d/1VoKKbNfqbxCPWI7ixvVCP7pcFdurCw5L/view) 🔭
 
 <br>
 
 <h2>Languages Used</h2>
 
 - JavaScript
-- Jquery
-- Bootstrap
-- HTML
-- CSS
 - Express.js
 - Node.js
-- Heroku
+- MYSQL
+- JSON
+
 
 - [x] Reliable API // This is done 
 - [x] Authentication // This is done
@@ -84,11 +70,6 @@ Go to the internet, type Brain Storm. That's it!
 		</td>
 	</tr>
 </table>
-
-
-
-
-
 
 <br>
 
