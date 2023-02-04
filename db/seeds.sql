@@ -21,16 +21,14 @@ VALUES ("CEO", 500000.00, 4),
        ("Project manager", 50000.00, 5);
       
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES ("Kobe", "Bryant", 4, NULL),
-       ("Shaquille", "O'Neal", 4, NULL), 
-       ("Kevin", "Durant", 1, 4),
-       ("Larry", "Bird", 2, 4),
-       ("Tim", "Duncan", 2, 4),
-       ("Wilt", "Chamberlain", 3, 4),
-       ("Magic", "Johnson",  5, 4),
-       ("Kareem", "Abdul-Jabbar", 5, 4),
-       ("LeBron", "James", 3, 4),
-       ("Steph", "Curry", 2, 4);
-       
-      
+INSERT INTO employees (first_name, last_name, role_id)
+VALUES ("Kobe", "Bryant", 4),
+       ("Shaquille", "O'Neal", 4), 
+       ("Kevin", "Durant", 1),
+       ("Larry", "Bird", 2),
+       ("Tim", "Duncan", 2),
+       ("Wilt", "Chamberlain", 3),
+       ("Magic", "Johnson",  5),
+       ("Kareem", "Abdul-Jabbar", 5),
+       ("LeBron", "James", 3),
+       ("Steph", "Curry", 3);
